@@ -1,0 +1,71 @@
+button {
+	border: none;
+}
+.app {
+	background-color: #1b1b1b;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fcfcfc;
+	font-size: 38px;
+}
+.grids {
+	display: flex;
+	gap: 5px;
+}
+.grid {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-template-rows: auto auto;
+	grid-auto-flow: row;
+	gap: 5px;
+}
+.null {
+	color: white;
+	background-color: olivedrab;
+	font-size: 50px;
+	height: 100px;
+	grid-column: span 3;
+}
+.grid2 {
+	display: grid;
+	grid-template-columns: auto;
+	gap: 5px;
+}
+.operation {
+	color: white;
+	background-color: rgba(0, 139, 139, 0.7);
+	font-size: 50px;
+	width: 150px;
+	height: 100px;
+}
+.number {
+	color: white;
+	background-color: olivedrab;
+	font-size: 50px;
+	width: 150px;
+	height: 100px;
+}
+
+.value {
+	font-size: 55px;
+	height: 80px;
+	color: white;
+	background-color: initial;
+	padding-right: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	text-align: end;
+	margin-bottom: 10px;
+}
+.resultValue {
+	font-size: 55px;
+	height: 80px;
+	color: white;
+	background-color: rgba(0, 100, 0, 0.3);
+	padding-right: 20px;
+	border: 1px solid rgba(255, 255, 255, 0.1);
+	text-align: end;
+	margin-bottom: 10px;
+}
